@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeasonL India</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f4f7fb;
+      color: #1a1a1a;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      letter-spacing: -0.05em;
+    }
+    p.lead {
+      margin: 16px auto 0;
+      max-width: 700px;
+      color: #555;
+      line-height: 1.75;
+      font-size: 1.1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+      padding: 30px;
+      margin-top: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+    }
+    .card p {
+      margin: 0;
+      color: #555;
+      line-height: 1.7;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 26px;
+      border-radius: 999px;
+      background: #0f63ff;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    a.button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 15px 30px rgba(15, 99, 255, 0.2);
+    }
+    footer {
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #e4eaf2;
+      color: #777;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to SeasonL India</h1>
+      <p class="lead">A simple static landing page for the SeasonL India repository. Use this page as the starting point for your website.</p>
+    </header>
+
+    <div class="card">
+      <h2>About this project</h2>
+      <p>SeasonL India is a grounded web presence for seasonal updates, news, and local offerings. This static homepage is ready to deploy as a basic entry point for your site.</p>
+      <div class="grid">
+        <div>
+          <h2>Fast</h2>
+          <p>Lightweight HTML with built-in responsive styling ensures a fast load experience on all devices.</p>
+        </div>
+        <div>
+          <h2>Simple</h2>
+          <p>Easy to extend with new sections, images, or scripts as your site grows.</p>
+        </div>
+        <div>
+          <h2>Static</h2>
+          <p>No server-side requirements are needed: just host the files on any static web host.</p>
+        </div>
+      </div>
+      <a class="button" href="#contact">Get started</a>
+    </div>
+
+    <div class="card" id="contact">
+      <h2>Next steps</h2>
+      <p>Replace this content with your branding, add images, and connect navigation to other site sections. You can also add your own CSS and JavaScript files for a richer design.</p>
+    </div>
+
+    <footer>
+      <p>© 2026 SeasonL India. Built as a static website entry page.</p>
+    </footer>
+  </div>
+</body>
+</html>
